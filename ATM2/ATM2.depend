@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1601221982 source:c:\users\sally\documents\codeblocks\atm2\main.cpp
+	<iostream>
+	<string>
+
