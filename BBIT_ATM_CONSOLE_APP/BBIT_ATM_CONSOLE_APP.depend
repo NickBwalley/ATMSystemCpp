@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1601636178 source:c:\users\sally\documents\codeblocks\bbit_atm_console_app\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+
