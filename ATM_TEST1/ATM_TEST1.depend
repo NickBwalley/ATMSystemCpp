@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1601625135 source:c:\users\sally\documents\codeblocks\atm_test1\main.cpp
+	<iostream>
+	<fstream>
+
