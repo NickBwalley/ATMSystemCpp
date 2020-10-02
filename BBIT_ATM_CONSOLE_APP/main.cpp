@@ -18,7 +18,7 @@ void registerNewClient();
 void depositClientFunds();
 void changeAdminsPassword();
 void exit();
-
+void delete_user();
 /**********************************/
 //guest userLoginCheck
 string user;
@@ -305,7 +305,7 @@ void changeAdminsPassword()
     }
 
 }
-/*************************************************GUEST ACCOUNT *************************************************************/
+/**********************GUEST ACCOUNT *******************************/
 void guestAccount()
 {
     int loginattempts=0;
