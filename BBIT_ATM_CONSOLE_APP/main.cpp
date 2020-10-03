@@ -274,60 +274,8 @@ void registerNewClient()
 }
 void depositClientFunds()
 {
-    fstream stud;
-    fstream temp;
-
-    stud.open("users.txt",ios::in);
-    temp.open("temp.txt",ios::out);
-    char username [25];
-    char password[25];
-    char amount [25];
-    char a[25];
-    cin.ignore();
-    cout<<" \nEnter Guest UserName : ";
-    cin.getline(a,25);
-    while(!stud.eof())
-    {
-        stud.getline(username,25);
-
-        stud.getline(password,25);
-        if(strcmp(username,a)==0)
-        {
-
-            cout<<" \n\tEnter New Records  \n ";
-            cout<<" \nEnter Guests Username : ";
-            cin.getline(username,25);
-            cout<<" \nSet Default guest password : ";
-            cin.getline(password,25);
-            cout<<" \nDeposit amount : ";
-            cin.getline(amount,25);
-            temp<< username<< " " <<password<< " " << amount << endl;
-        }
-        else
-        {
-            temp<< username<< " " <<password<< " " << amount << endl;
-        }
-
-
-    }
-    temp.close();
-    stud.close();
-
-    stud.open("users.txt",ios::out);
-    temp.open("temp.txt",ios::in);
-    while(!temp.eof())
-    {
-        temp.getline(username,25);
-        temp.getline(password,25);
-        temp.getline(amount,25);
-        stud<< username << " " <<password<<" "<<amount<<endl;
-    }
-    temp.close();
-    stud.close();
-    remove("temp.txt");
-    cout<<"\n SUCCESSFULLY UPDATED !!! \n";
+    cout << "Welcome Here!" << endl;
     exit(0);
-
 }
 void changeAdminsPassword()
 {
