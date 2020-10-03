@@ -1,5 +1,11 @@
-/*Code Implemented on Friday 2nd October 2020 */
-/*NICKBWALLEY #WeAreLegion*/
+/*ATM CONSOLE APPLICATION CPP */
+/*Functionalities
+1. create record
+2. delete record
+3. search record
+4. update record
+5. display all record*/
+/*CODE IMPLEMENTED By~NICKBWALLEY */
 #include <iostream>
 #include <fstream>
 #include  <string.h>
